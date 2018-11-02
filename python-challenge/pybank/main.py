@@ -1,3 +1,5 @@
+import csv
+from decimal import Decimal
 budget_path="budget_data.csv"
 with open(budget_path, newline="") as budget_data:
     budget_reader=csv.reader(budget_data, delimiter=",")
